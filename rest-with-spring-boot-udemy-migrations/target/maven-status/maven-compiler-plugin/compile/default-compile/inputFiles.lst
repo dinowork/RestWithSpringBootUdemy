@@ -1,0 +1,10 @@
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\exception\ExceptionResponse.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\converter\DozerConverter.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\controller\PersonController.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\repository\PersonRepository.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\data\model\Person.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\Startup.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\data\vo\PersonVO.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\exception\handler\CustomizedResponseEntityExceptionHandler.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\services\PersonService.java
+D:\dev\git\RestWithSpringBootUdemy\rest-with-spring-boot-udemy-migrations\src\main\java\br\com\erudio\exception\ResourceNotFoundException.java
