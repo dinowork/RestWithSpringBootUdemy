@@ -1,0 +1,32 @@
+Docker:
+	--faz o build da imagem
+	docker-compose build
+	--sobe a imagem
+	docker-compose up
+	--para a imagem
+	stopping CTRL + C
+	-- sobe a imagem liberando o console (-d) e faz build da imagem
+	docker-compose up -d --build
+	-- lista os container no ar
+	docker ps
+	-- lista os container no ar e os inativos
+	docker ps -a
+	-- ver log de um container
+	docker logs <<CONTAINER_ID>>
+	-- ver as minhas imagens
+	docker images
+	-- login no docker (console)
+	docker login docker.io
+	-- subir imagem docker
+	docker push <<nome imagen>> (dinowork/mysql-rest-with-spring-boot-udemy )
+	
+	
+	
+Flyway:
+	mvn flyway:migrate (dentro do projeto)
+	
+Speing boot:
+	mvn clean package spring-boot:run
+	
+	
+	

@@ -15,7 +15,7 @@
   <properties>
   	<project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
   	<project.reporting.outputEnconding>UTF-8</project.reporting.outputEnconding>  
-  	<java.version>12</java.version>
+  	<java.version>11</java.version>
   </properties>
   
   <dependencies>
@@ -42,7 +42,7 @@
   	
   	<dependency>
   		<groupId>org.flywaydb</groupId>
-  		<artifactId>flyway-core</artifactId>  		
+  		<artifactId>flyway-core</artifactId>    		
   	</dependency>
   	
   	<dependency>
@@ -74,9 +74,10 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-maven-plugin</artifactId>			
 			<configuration>
-				<url>jdbc:mysql://localhost:3306/rest_with_spring_boot_udemy?useTimezone=true&amp;serverTimezone=UTC&amp;useSSL=false</url>
+				<url>jdbc:mysql://localhost:3306/rest_with_spring_boot_udemy?useTimezone=true&amp;serverTimezone=UTC</url>
 				<user>root </user>
 				<password>root</password>
+				<driver>com.mysql.cj.jdbc.Driver</driver>
 			</configuration>
 			<dependencies>
 				<dependency>
