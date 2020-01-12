@@ -1,0 +1,18 @@
+language: bash
+services: docker
+before_install:
+  - cd rest-with-spring-boot-udemy-docker
+  - echo "We are in Docker folder!"
+script:
+  - docker-compose build
+before_deploy:
+  - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
+deploy:
+  provider: script
+  script:
+    docker push dinowork/mysql-rest-with-spring-boot-udemy;
+    docker push dinowork/rest-with-spring-boot-udemy;
+  on:
+    branch: master
+notifications:
+  email: false
