@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
 	private ApiInfo apiInfo() {
 		return new ApiInfo(
-				"Restful API With Spring Boot 2.1.3 - Integração continua", 
+				"Restful API With Spring Boot 2.1.3 - Integração continua II", 
 				"Some description about your API.", 
 				"v1", 
 				"Terms Of Service Url", 
