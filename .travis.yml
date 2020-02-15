@@ -14,7 +14,7 @@ before_install:
   - cd ..
   - echo "We are in the docker folder!"
 script:
-  - echp "OK Were we GO!"
+  - echo "OK Were we GO!"
   - docker-compose build
 before_deploy:
   - echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin  
