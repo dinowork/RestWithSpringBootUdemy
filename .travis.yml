@@ -8,7 +8,7 @@ python:
 services: docker
 before_install:
   - sudo apt-get update
-  - cd /rest-with-spring-boot-udemy-aws-travis/RestWithSpringBootUdemy
+  - cd rest-with-spring-boot-udemy-aws-travis/RestWithSpringBootUdemy
   - echo "Let's start maven package!"
   - mvn clean package
   - cd ..
